@@ -1,0 +1,30 @@
+{
+  "name": "latihan-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node -L"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-restify": "^1.3.6",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "graphql-date": "^1.0.3",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.16",
+    "nodemon": "^1.18.10",
+    "restify": "^8.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
