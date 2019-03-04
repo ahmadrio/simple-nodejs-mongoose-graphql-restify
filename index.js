@@ -15,6 +15,8 @@ server.use(restify.plugins.acceptParser(server.acceptable))
 server.use(restify.plugins.bodyParser())
 server.use(restify.plugins.queryParser())
 
+console.log(config.MONGODB_URI)
+
 // connected to database
 mongoose.connect(config.MONGODB_URI, {
     useNewUrlParser: true,
